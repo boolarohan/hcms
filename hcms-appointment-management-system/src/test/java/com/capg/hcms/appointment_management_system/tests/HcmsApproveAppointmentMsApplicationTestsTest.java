@@ -1,4 +1,4 @@
-package com.capg.hcms.appointmentms;
+package com.capg.hcms.appointment_management_system.tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.capg.hcms.appointment_management_system.HcmsAppointmentMsApplication;
 import com.capg.hcms.appointment_management_system.controller.ApproveAppointmentController;
-import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepo;
+import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepository;
 import com.capg.hcms.appointment_management_system.service.AppointmentMSServiceImp;
 
 /*******************************************************************************************************************************
@@ -29,7 +29,7 @@ class HcmsApproveAppointmentMsApplicationTests {
 	@Autowired
 	AppointmentMSServiceImp service;
 	@Autowired
-	IAppointmentMSRepo repo;
+	IAppointmentMSRepository repo;
 	@Autowired
 	ApproveAppointmentController approveAppointment;
 

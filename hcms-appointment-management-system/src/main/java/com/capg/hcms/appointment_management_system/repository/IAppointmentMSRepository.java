@@ -14,7 +14,7 @@ import com.capg.hcms.appointment_management_system.model.Appointment;
 -Description              :     AppointmentRepo interface acting as repository with Appointment class a type and BigInteger as ID
 *******************************************************************************************************************************/
 
-public interface IAppointmentMSRepo extends JpaRepository<Appointment, BigInteger> {
+public interface IAppointmentMSRepository extends JpaRepository<Appointment, BigInteger> {
 	
   
   public Appointment getAppointmentByDateTimeAndTestId(LocalDateTime dateTime,String testId);

@@ -12,7 +12,7 @@ import com.capg.hcms.appointment_management_system.exceptions.AppointmentNotFoun
 import com.capg.hcms.appointment_management_system.exceptions.SlotNotAvailableException;
 import com.capg.hcms.appointment_management_system.model.Appointment;
 import com.capg.hcms.appointment_management_system.model.AppointmentList;
-import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepo;
+import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepository;
 
 /*******************************************************************************************************************************
 -Author                   :     Boola Rohan, Rishita Kalidindi
@@ -26,7 +26,7 @@ import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepo
 public class AppointmentMSServiceImp implements IAppointmentMSService {
 
 	@Autowired
-	IAppointmentMSRepo appointmentRepo;
+	IAppointmentMSRepository appointmentRepo;
 	
 	/*******************************************************************************************************************************
 	-Function Name            :     makeAppointment

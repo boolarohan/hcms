@@ -1,4 +1,4 @@
-package com.capg.hcms.appointmentms;
+package com.capg.hcms.appointment_management_system.tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,7 +17,7 @@ import com.capg.hcms.appointment_management_system.HcmsAppointmentMsApplication;
 import com.capg.hcms.appointment_management_system.exceptions.AppointmentNotFoundException;
 import com.capg.hcms.appointment_management_system.exceptions.SlotNotAvailableException;
 import com.capg.hcms.appointment_management_system.model.Appointment;
-import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepo;
+import com.capg.hcms.appointment_management_system.repository.IAppointmentMSRepository;
 import com.capg.hcms.appointment_management_system.service.IAppointmentMSService;
 
 /*******************************************************************************************************************************
@@ -34,7 +34,7 @@ class HcmsAppointmentMsApplicationTests {
 	@Autowired
 	IAppointmentMSService service;
 	@Autowired
-	IAppointmentMSRepo appointmentRepo;
+	IAppointmentMSRepository appointmentRepo;
 	Appointment appointment;
 	Appointment appointment1;
 	Appointment appointment2;
