@@ -17,7 +17,7 @@ import com.capg.hcms.register_management_system.model.UserList;
 import com.capg.hcms.register_management_system.service.IRegisterService;
 
 /*******************************************************************************************************************************
--Author                   :     Boola Rohan, ManikantaReddy
+-Author                   :     Boola Rohan
 -Created/Modified Date    :     01-05-2020
 -Description              :     RegisterController Class for accessing Register Management System services
 

@@ -15,7 +15,7 @@ import com.capg.hcms.register_management_system.model.UserList;
 import com.capg.hcms.register_management_system.repository.IRegisterRepository;
 
 /*******************************************************************************************************************************
--Author                   :     Boola Rohan, Rishita Kalidindi
+-Author                   :     Boola Rohan
 -Created/Modified Date    :     01-05-2020
 -Description              :     RegisterServiceImp Class implements services for Register Management System
 *******************************************************************************************************************************/

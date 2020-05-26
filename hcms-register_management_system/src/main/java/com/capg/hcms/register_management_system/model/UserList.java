@@ -3,7 +3,7 @@ package com.capg.hcms.register_management_system.model;
 import java.util.List;
 
 /*******************************************************************************************************************************
--Author                   :   ManikantaReddy, Boola Rohan     
+-Author                   :   Boola Rohan     
 -Created/Modified Date    :   22-04-2020 
 -Description              :   Bean class with List of User Property 
 

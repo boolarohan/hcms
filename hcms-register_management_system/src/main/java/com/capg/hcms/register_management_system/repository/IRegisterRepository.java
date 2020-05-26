@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.capg.hcms.register_management_system.model.User;
 /*******************************************************************************************************************************
--Author                   :     Boola Rohan, Manikanta Reddy
--Created/Modified Date    :     
+-Author                   :     Boola Rohan
+-Created/Modified Date    :     22-04-2020
 -Description              :     JpaRepository Interface of Register Management System
 
 *******************************************************************************************************************************/

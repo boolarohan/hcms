@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /*******************************************************************************************************************************
--Author                   :    ManikantaReddy, Boola Rohan 
+-Author                   :    Boola Rohan 
 -Created/Modified Date    :    22-04-2020 
 -Description              :    User Bean Class
 

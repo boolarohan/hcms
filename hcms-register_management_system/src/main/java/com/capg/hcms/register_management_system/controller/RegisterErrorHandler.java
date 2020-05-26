@@ -13,7 +13,7 @@ import com.capg.hcms.register_management_system.exception.UserNameAlreadyExistEx
 import com.capg.hcms.register_management_system.exception.UserNotFoundException;
 
 /*******************************************************************************************************************************
--Author                   :     Boola Rohan, ManikantaReddy
+-Author                   :     Boola Rohan
 -Created/Modified Date    :     01-05-2020
 -Description              :     RegisterErrorHandler Class for handling Register Management System Exceptions
 *******************************************************************************************************************************/

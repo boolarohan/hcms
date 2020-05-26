@@ -7,7 +7,7 @@ import com.capg.hcms.register_management_system.model.UserList;
 
 
 /*******************************************************************************************************************************
--Author                   :     Boola Rohan, Manikanta Reddy
+-Author                   :     Boola Rohan
 -Created/Modified Date    :     01-05-2020
 -Description              :     IRegisterervice Interface with services for Register Management System
 *******************************************************************************************************************************/
